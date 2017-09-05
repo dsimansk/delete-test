@@ -2,6 +2,6 @@
 flows:
 - steps:
   - kind: endpoint
-    uri: twitter-mention
+    uri: http-get
   - kind: endpoint
-    uri: salesforce-upsert-contact
+    uri: http-post
